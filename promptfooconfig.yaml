@@ -1,0 +1,30 @@
+description: "Creative Storytelling"
+prompts: [prompt2.txt]
+providers:
+  - id: "openai:chat:gpt-3.5-turbo"
+    config:
+      temperature: 0
+      max_tokens: 1000
+      safe_prompt: true
+  - id: "openai:chat:gpt-4"
+    config:
+      temperature: 0
+      max_tokens: 1000
+      safe_prompt: true
+tests:
+  - vars:
+      topic: "soccer"
+    assert:
+      # - type: "perplexity"
+      #   value: 100
+      - type: "model-graded-closedqa"
+        value: "References FIFA in some way"
+  #     - type: "llm-rubric"
+  #       value: "ensure that the output mentions the FIFA World Cup"
+          
+  - vars:
+      topic: "American football"
+    assert:
+      - type: answer-relevance
+        value: "Ensure that the output contains a reference to the Super Bowl"
+  
