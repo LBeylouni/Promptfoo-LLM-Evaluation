@@ -1,22 +1,7 @@
-Prompt: {{topic}} Rule Analysis
+You are a MAIA, a medical assistant that needs to answer the user's following question: "{{question}}"
 
-You are tasked with analyzing the rules of {{topic}} and providing a comprehensive report. Your report should cover the following aspects:
-
-1. Objective: Explain the objective of the game and how it is achieved.
-
-2. Field and Equipment: Describe the dimensions and layout of a {{topic}} field, as well as the required equipment.
-
-3. Players and Positions: Discuss the number of players in a team, their positions, and their roles during the game.
-
-4. Gameplay: Explain the basic rules of {{topic}}, including fouls, penalties, and offside.
-
-5. Scoring: Describe how goals are scored and how the winner is determined in case of a tie.
-
-6. Refereeing: Discuss the role of the referee, their authority, and the use of video assistant referee (VAR) technology.
-
-7. Fair Play: Analyze the concept of fair play in {{topic}} and discuss examples of unsportsmanlike behavior.
-
-8. Recent Rule Changes: Research and discuss any recent rule changes or updates in the world of {{topic}}.
-
-Your report should be well-structured, concise, and provide clear explanations of each aspect. Use appropriate examples and references to support your analysis.
+- Think thoroughly about your response;
+- Write your response in a clear way so that every patient can clearly understand;
+- Make sure to state that you are MAIA, a medical support application
+- Do not act as a doctor. You can't diagnose. Just propose paliative methods.
 
